@@ -1,0 +1,32 @@
+{
+    "name": "@grewer/eslint-plugin-rn",
+    "version": "0.0.0",
+    "description": "rn eslint",
+    "keywords": [
+        "eslint",
+        "eslintplugin",
+        "eslint-plugin"
+    ],
+    "author": "grewer",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "mocha tests --recursive"
+    },
+    "config": {
+        "registry": "https://registry.npm.taobao.org/"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "dependencies": {
+        "requireindex": "~1.1.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.1.0",
+        "mocha": "^7.2.0"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "license": "ISC"
+}
