@@ -1,17 +1,17 @@
 # jsx render cannot write style (no-inner-style)
 
-Please describe the origin of the rule here.
-
-
 ## Rule Details
-
-This rule aims to...
 
 Examples of **incorrect** code for this rule:
 
 ```js
 
-// fill me in
+function TestView(){
+    return (
+        <View style={{flex:1, width: 200}} >
+        </View>
+    )
+}
 
 ```
 
@@ -19,18 +19,16 @@ Examples of **correct** code for this rule:
 
 ```js
 
-// fill me in
-
+function TestView(){
+    const mode = 'dark';
+    return (
+        <View style={{flex: 1, width: 200, color: mode === 'dark' ? '#000' : '#fff'}}>
+        </View>
+    )
+}
 ```
 
-### Options
-
-If there are any options, describe them here. Otherwise, delete this section.
 
 ## When Not To Use It
 
-Give a short description of when it would be appropriate to turn off this rule.
-
-## Further Reading
-
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.
+规范项目的行内样式, 如果不需要可以关闭
