@@ -1,6 +1,6 @@
 {
     "name": "@grewer/eslint-plugin-rn",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "rn eslint",
     "keywords": [
         "eslint",
@@ -18,7 +18,7 @@
     "scripts": {
         "test": "node_modules/.bin/mocha tests --recursive",
         "create:rule": "npx yo eslint:rule",
-        "pub": "npm publish"
+        "pub": "node create.js && npm publish"
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org/",
@@ -26,9 +26,9 @@
     },
     "homepage": "https://github.com/Grewer/eslint-plugin-rn",
     "dependencies": {
-        "requireindex": "~1.1.0"
     },
     "devDependencies": {
+        "requireindex": "~1.1.0",
         "eslint": "^7.1.0",
         "generator-eslint": "^2.0.0",
         "mocha": "^8.3.0"

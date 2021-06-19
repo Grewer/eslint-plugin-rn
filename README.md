@@ -24,7 +24,7 @@ Add `rn` to the plugins section of your `.eslintrc` configuration file. You can 
 ```json
 {
     "plugins": [
-        "rn"
+        "@grewer/rn"
     ]
 }
 ```
@@ -35,7 +35,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "rn/rule-name": 2
+        "@grewer/rn/no-inner-style": 1
     }
 }
 ```
