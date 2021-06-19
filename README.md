@@ -10,16 +10,16 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-rn`:
+Next, install `@grewer/eslint-plugin-rn`:
 
 ```
-$ npm install eslint-plugin-rn --save-dev
+$ npm install @grewer/eslint-plugin-rn --save-dev
 ```
 
 
 ## Usage
 
-Add `rn` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `@grewer/rn` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
