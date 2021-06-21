@@ -1,6 +1,6 @@
 {
     "name": "@grewer/eslint-plugin-rn",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "rn eslint",
     "keywords": [
         "eslint",
